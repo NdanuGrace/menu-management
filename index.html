@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Management</title>
+    <title>Find a meal Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class ="container">
+    <div class = "meal-wrap">
+        <div class = "search-meal">
+            <img src = "logo.jpg">
+            <h2 class=" title">THE COOK BOOK</h2>
+       <!-- search box -->
+            <div class = "search-box">
+                <input type="text" id = "search-content" placeholder = "Enter an ingredient" >
+                <button type = "submit" class = "search-btn btn" id = "search-btn">
+                    <i class = "fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+       <!-- returned result -->
+                
+                    <h2 class=" title">Search Results:</h2>
+                    <div id ="meal">
+                    <!-- searched meal -->
+                        <!-- <div class = "meal-item">
+                            <div class = "meal-image">
+                                <img src = "food.jpg" alt="food">
+                            </div>
+                       
+                                <div class = 'meal-name'>
+                                    <h3></h3>
+                                    <button type = "click" class = "recipe-btn">View Recipe</button><br><br>
+                                    <p> </p>
+                                </div>
+                            </div> -->
+                            <!-- end  -->
+                        
+
+                        </div>
+                    </div>
+                    <div class ="pop-up">
+                    
+
+                    <button type = "button" class = 'btn recipe-close-btn' id ="recipe-close-btn"> X</button>
+
+                    <!-- recipe content -->
+                    <div class = "meal-details-content">
+                        <h2 class = 'recipe-title'>Meal Name</h2>
+                        <div class = "recipe-instruct">
+                            <h3>Instructions :</h3>
+                            <p>Many of our components require the use of JavaScript to function. 
+                                Specifically, they require jQuery, Popper.js, and our own JavaScript plugins. Place the following 
+                                    near the end of your pages, right before the closing 
+                                    tag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        
     
+
+
+
+
+
+
+   <script src = "index.js"></script>
 </body>
 </html>
