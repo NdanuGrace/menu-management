@@ -4,18 +4,14 @@ const titleName= document.querySelector('h3');
 const mealName = document.querySelector('.meal-name');
 const recipeBtn = document.querySelector('.recipe-btn')
 const mealDetailsContent = document.querySelector('.meal-details-content');
-const recipeCloseBtn = document.getElementById('recipe-close-btn');
+const closeBtn = document.getElementById('recipe-close-btn');
 
 
 
-
-
-
-// event listeners
 searchBtn.addEventListener('click',getList );
 mealItem.addEventListener('click' ,getRecipe);
-recipeCloseBtn.addEventListener('click', () => {
-    mealDetailsContent.parentElement.classList.remove('showRecipe');
+closeBtn.addEventListener('click', () => {
+    popUp.style.display = "none";
 });
 
 
@@ -83,7 +79,8 @@ function recipeModal(meal){
         </div>
     `;
     mealDetailsContent.innerHTML = html;
-    mealDetailsContent.parentElement.classList.add('showRecipe');
+    popUp = document.querySelector('.modal')
+    popUp.style.display = "block";
 }
 
 
@@ -99,17 +96,6 @@ function recipeModal(meal){
 
 
 
-//     e.preventDefault();
-//     let mealItem = document.getElementById('meal')
-    
-//        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}`)
-//      .then(response => response.json())
-//     .then(data => {
-
-//     })
-
-// }<button type = "click" class = "recipe-btn">View Recipe</button><br><br>
-// 
 
 
 
