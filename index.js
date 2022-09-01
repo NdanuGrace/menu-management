@@ -7,13 +7,12 @@ const mealDetailsContent = document.querySelector('.meal-details-content');
 const closeBtn = document.getElementById('recipe-close-btn');
 
 
-
+// event listeners
 searchBtn.addEventListener('click',getList );
 mealItem.addEventListener('click' ,getRecipe);
 closeBtn.addEventListener('click', () => {
     popUp.style.display = "none";
 });
-
 
 
 
@@ -65,8 +64,7 @@ function getRecipe(e){
     
 
 function recipeModal(meal){
-    
-    console.log(meal);
+
     meal = meal[0];
     let html = `
         <h2 class = "recipe-title">${meal.strMeal}</h2>
@@ -74,6 +72,8 @@ function recipeModal(meal){
         <div class = "recipe-instruct">
             <h3>Instructions:</h3>
             <p>${meal.strInstructions}</p>
+            
+          </div>
         </div>
        
         </div>
@@ -82,6 +82,10 @@ function recipeModal(meal){
     popUp = document.querySelector('.modal')
     popUp.style.display = "block";
 }
+
+  
+   
+
 
 
 
