@@ -110,7 +110,7 @@ font-weight: 1000px;
     left: 50%;
     position: fixed;
     transform: translate(-50% , -50%);
-    background:rgb(252, 185, 164) ;
+    background:rgb(253, 177, 147) ;
     color: rgb(19, 1, 1);
     border-radius: 10px;
     overflow-y: scroll;
@@ -119,6 +119,10 @@ font-weight: 1000px;
 
    
     
+}
+.notFound{
+    font-size: 30px;
+   color :rgb(100, 44, 4);
 }
 
 
@@ -141,6 +145,7 @@ font-weight: 1000px;
 .recipe-title{
     font-weight: 700px;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 2, 13);
 }
 
 .comment-box{
