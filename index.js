@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', ()=>{
+
+
+
 const searchBtn = document.getElementById('search-btn');
 const mealItem= document.getElementById('meal');
 const titleName= document.querySelector('h3');
@@ -86,7 +90,7 @@ function recipeModal(meal){
   
    
 
-
+})
 
 
 
