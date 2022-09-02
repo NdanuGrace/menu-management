@@ -126,7 +126,7 @@ font-weight: 1000px;
     display: block;
 }
 .meal-details-content{
-    margin : 2rem;
+    margin-left: 30px;
 }
 .meal-details-content p{
     padding: 1rem 0;
@@ -136,6 +136,11 @@ font-weight: 1000px;
     position:absolute;
     border-radius: 10px;
     text-decoration: none;
+    margin-left: 630px;
+}
+.recipe-title{
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .comment-box{
