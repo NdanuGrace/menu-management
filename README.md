@@ -11,11 +11,16 @@ HOW IT WORKS
 
 
 STEPS
-1. Created a user Interface using html and css 
-2. Used javaScript for the user interactivity through; 
-    adding event listeners
-    creating elements
-    fetching data froma public API
+1. Created a user Interface using html 
+2. Styled the User Interface using css
+3. Used javaScript for the user interactivity through; 
+   - selecting elements
+   - adding event listeners to the buttons
+   - creating a function geList and getRecipe that fetches data from an external Api 
+   - looping over the data to access each individual information for the mealID , mealImage and the mealTitle
+   - creating elements
+4. Constant testing and debugging
+
     
 
 
@@ -29,3 +34,6 @@ setup instructions
 
 link to live site 
 https://ndanugrace.github.io/menu-management/
+
+
+copyrights
